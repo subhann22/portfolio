@@ -1,0 +1,80 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Body background and text */
+  body {
+    background: linear-gradient(135deg, #ff4e50, #f9d423);
+    color: #fff;
+    min-height: 100vh;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  /* Header/Main section */
+  .header {
+    margin-top: 2rem;
+  }
+  
+  /* Profile Image Styling - UPDATED */
+  .profile-img {
+    width: 120px; /* smaller and neater */
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Headline */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Section titles */
+  section h2 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  /* General content blocks */
+  section p {
+    max-width: 800px;
+    margin: 0 auto 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Projects List */
+  .projects ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .projects li {
+    margin: 0.5rem 0;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #f0f0f0;
+  }
+  
+  
